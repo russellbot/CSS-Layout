@@ -1,6 +1,6 @@
 .zone {
     padding:30px 50px;
-    margin:40px 60px;
+    margin: auto;
     cursor:pointer;
     display:inline-block;
     color:#FFF;
@@ -15,6 +15,10 @@
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.container {
+    display: flex;
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
